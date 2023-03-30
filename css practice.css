@@ -96,10 +96,19 @@ h1 {
 }
 .image1:hover{
     background-image: url("https://images.pexels.com/photos/7244512/pexels-photo-7244512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+ transition: 2s;
+    transition-timing-function: ease-in;
+
 }
 .image2:hover {
     background-image:url("https://images.pexels.com/photos/1423600/pexels-photo-1423600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  transition: 2s;
+  transition-timing-function: ease-in-out;
+
 }
 .image3:hover {
     background-image: url("https://images.pexels.com/photos/210243/pexels-photo-210243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+ transition: 3s;
+    transition-timing-function: ease-in;
+
 }
