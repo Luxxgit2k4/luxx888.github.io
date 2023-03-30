@@ -1,0 +1,105 @@
+body,html 
+{
+    height: 100%;
+    margin: 0;
+    font-size: 17px;
+    font-family:"Lato", sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    color: white
+   
+}
+.image1 {
+     background-image: url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    min-height: 60%;
+   
+ 
+}
+
+.image2 {
+    background-image: url("https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+min-height: 500px;
+
+}
+.image3 {
+    background-image:url("https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+min-height: 500px;
+
+}
+.image1, .image2, .image3 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.section {
+    text-align: center;
+    padding: 50px 70px;
+}
+.section-light {
+    background-color: rgba(255, 228, 196, 0.526);
+    color: black
+
+}
+.section-dark {
+    background-color:rgba(173, 216, 230, 0.174);
+    color: rgba(0, 0, 0, 0.541);
+    color: black
+
+}
+.imagetext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  font-family: cursive;
+}
+.imagetext .border {
+    background-color:black;
+    color: #fff;
+    padding: 30px;
+}
+.intro {
+    text-decoration: none;
+    padding-left: 70%;
+    font-size: 20px;
+}
+.myself {
+    text-decoration: none;
+    padding-left: 30px;
+    transition: all;
+    font-size: 20px;
+}
+.info {
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.details {
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 20px;
+}
+html {
+    background-color: gray;
+}
+h1 {
+    font-size: 50px;
+    color: brown;
+}
+.image1:hover{
+    background-image: url("https://images.pexels.com/photos/7244512/pexels-photo-7244512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.image2:hover {
+    background-image:url("https://images.pexels.com/photos/1423600/pexels-photo-1423600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.image3:hover {
+    background-image: url("https://images.pexels.com/photos/210243/pexels-photo-210243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
